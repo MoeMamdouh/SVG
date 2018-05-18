@@ -23,8 +23,8 @@ const { width, height } = Dimensions.get('screen');
 export default class Cow extends Component {
   render() {
     return (
-      <Svg height="400" width={width}>
-        <G>
+      <Svg height={400} width={width}>
+        <G scale={1}>
           <Path
             onPressIn={() => alert('Round')}
             d="M30.2,28.2c-8,1.2-12.8,5.6-15.1,12.9C13.3,47,13.2,53,13.2,59c0,10.5,0.2,21.1-0.1,31.6c-0.2,8.2-0.9,16.4-1.4,24.6
