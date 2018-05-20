@@ -57,7 +57,7 @@ export default class SvgExample extends Component {
           this.drawer = ref;
         }}
         content={
-          <View style={{ flex: 1, backgroundColor: 'green' }}>
+          <View style={{ flex: 1, backgroundColor: '#b7b7b7' }}>
             <Text>asdasdasd</Text>
           </View>
         }
@@ -67,7 +67,7 @@ export default class SvgExample extends Component {
         onClose={() => this.closeDrawer()}
       >
         <Container>
-          <Header noLeft>
+          <Header>
             <Left>
               <Button transparent>
                 <Icon name="menu" onPress={this.openDrawer} />
@@ -78,7 +78,7 @@ export default class SvgExample extends Component {
             </Body>
             <Right>
               <Button transparent>
-                <Text>Cancel</Text>
+                <Icon name="bulb" />
               </Button>
             </Right>
           </Header>
