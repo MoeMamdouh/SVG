@@ -7,18 +7,15 @@ import {
   Dimensions,
   TouchableOpacity,
 } from 'react-native';
-import { Root } from 'native-base';
-
-import Home from './src/screens/Home';
 
 const { width, height } = Dimensions.get('screen');
 
 export default class SvgExample extends Component {
   render() {
     return (
-      <Root>
-        <Home />
-      </Root>
+      <View style={styles.container}>
+        <Text>asdasdasasd</Text>
+      </View>
     );
   }
 }
